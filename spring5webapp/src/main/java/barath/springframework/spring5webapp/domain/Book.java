@@ -1,6 +1,15 @@
 package barath.springframework.spring5webapp.domain;
-
-import javax.annotation.processing.Generated;
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+//import javax.annotation.processing.Generated;
 import java.util.Objects;
 
 @Entity
@@ -12,16 +21,15 @@ public class Book {
     private String isbn;
     @ManyToMany
     @JoinTable(name = "author-book",joinColumns = @JoinColumn(name = "book-id"),inverseJoinColumns = @JoinColumn(name ="author_id"))
-    private Set<Author> authors;
+    private Set<Author> authors = new HashSet<>();
 
 
 
     public Book() {
     }
-    public Book(String title, String isbn, Set<Author> authors) {
+    public Book(String title, String isbn) {
         this.title = title;
         this.isbn = isbn;
-        this.authors = authors;
     }
 
     public Long getId() {
