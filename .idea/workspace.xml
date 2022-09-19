@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55193da-358e-49b1-9a97-51d3c0df0b2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/Spring5webappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/Spring5webappApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/bootstrap/BootStrapData.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/bootstrap/BootStrapData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/domain/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/domain/Publisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/repositories/PublisherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/src/main/java/barath/springframework/spring5webapp/repositories/PublisherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring5webapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring5webapp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +115,7 @@
       <workItem from="1662706407000" duration="5931000" />
       <workItem from="1662789005460" duration="1648000" />
       <workItem from="1663564499395" duration="1882000" />
-      <workItem from="1663566466661" duration="2289000" />
+      <workItem from="1663566466661" duration="4839000" />
     </task>
     <servers />
   </component>
