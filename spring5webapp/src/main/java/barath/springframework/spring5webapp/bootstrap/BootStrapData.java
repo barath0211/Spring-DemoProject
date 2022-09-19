@@ -48,13 +48,16 @@ Book ps = new Book ("Ponniyin Selvan" , "1977");
 uma.getBooks().add(ps);
 ps.getAuthors().add(uma);
 
+ps.setPublisher(publisher);
+publisher.getBooks().add(ps);
+
 authorRepository.save(uma);
 bookRepository.save(ps);
-
+publisherRepository.save(publisher);
 
 System.out.println("Started in Bootstrap");
 System.out.println("Number of Books : " + bookRepository.count());
-
+        System.out.println("Publisher Number of Books : " + publisher.getBooks().size());
     }
 
 }
